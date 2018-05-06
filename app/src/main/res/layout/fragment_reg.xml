@@ -1,0 +1,139 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theme1"
+    tools:context="project03.csc214.project03.Registration.RegFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/signUpLinLay"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/FNameTV"
+                android:textSize="20sp" />
+            <EditText
+                android:id="@+id/newFNameET"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/newFNameHint"
+                android:text="@string/newFNameET" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/LNameTV"
+                android:textSize="20sp"
+                />
+            <EditText
+                android:id="@+id/newLNameET"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/newLNameHint"
+                android:text="@string/newFNameET" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/newEmailTV"
+                android:textSize="20sp"
+                />
+            <EditText
+                android:id="@+id/newEmailET"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/newEmailHint"
+                android:text="@string/newEmailET" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/newPassTV"
+                android:textSize="20sp"
+                />
+            <EditText
+                android:id="@+id/newPassET"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/newPassHint"
+                android:text="@string/newFNameET"
+                android:inputType="textPassword"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:text="@string/passCheck"
+                android:textSize="20sp"
+                />
+            <EditText
+                android:id="@+id/checkPassET"
+                android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/newPassHint"
+                android:text=""
+                android:inputType="textPassword"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please set password length to 6 or more characters."
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:background="@color/green"
+        android:id="@+id/newUserRegister"
+        android:layout_below="@id/signUpLinLay"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="@string/continueRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        />
+
+
+</RelativeLayout>

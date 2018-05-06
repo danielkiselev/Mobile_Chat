@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Kek Chat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loginhint">Email</string>
+    <string name="emailET" />
+    <string name="passwordhint">Password</string>
+    <string name="passwordET" />
+    <string name="loginB">Login</string>
+    <string name="registerB">Register</string>
+    <string name="newFNameET" />
+    <string name="newFNameHint">First Name</string>
+    <string name="FNameTV">First Name:</string>
+    <string name="newLNameHint">Last Name</string>
+    <string name="LNameTV">Last Name:</string>
+    <string name="newEmailET" />
+    <string name="newEmailHint">Email (Used For Login)</string>
+    <string name="newPassHint">Password</string>
+    <string name="newEmailTV">Email:</string>
+    <string name="newPassTV">Password:</string>
+    <string name="passCheck">Confirm Password:</string>
+    <string name="continueRegister">Continue</string>
+    <string name="add_user">Add User</string>
+    <string name="addGuide0">Two Users Open Add Friend Page</string>
+    <string name="addGuide1">User One Presses ADD USER</string>
+    <string name="addGuide2">User Two Holds Up His Phone Under The Other\'s Camera</string>
+    <string name="your_friends">Your Friends</string>
+    <string name="chat">Chat</string>
+    <string name="log_out">Log Out</string>
+    <string name="add_friend">Add Friend</string>
+    <string name="dialChat">Start Chat</string>
+    <string name="dialRemove">Remove Friend</string>
+    <string name="dialCancel">Cancel</string>
+    <string name="your_chats">Your Chats</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="your_friends1">Your Friends</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/mainFrame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/theme1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project03.csc214.project03.Main.MainActivity">
+
+    <fragment
+        android:id="@+id/fragLayMain"
+        tools:layout="@layout/fragment_main"
+        android:name="project03.csc214.project03.Main.MainFragment"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+
+
+
+</FrameLayout>

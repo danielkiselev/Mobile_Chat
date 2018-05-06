@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="project03.csc214.project03.Chat.DetailChatFragment">
+
+    <LinearLayout
+        android:id="@+id/Key"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp">
+        <TextView
+            android:id="@+id/chatNameTV"
+            android:textColor="@color/green"
+            android:textSize="16sp"
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_below="@+id/Key"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        app:stackFromEnd="true"
+        app:reverseLayout="true"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycleConvV"
+        android:scrollbars="vertical"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_below="@id/recycleConvV"
+        android:id="@+id/messageLinLay"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/messageET"
+            android:hint=""
+            />
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/sendBut"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="64dp"
+            android:src="@drawable/ic_action_send"
+            app:cb_color="#99CC00"
+            app:cb_pressedRingWidth="8dip" />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+</RelativeLayout>

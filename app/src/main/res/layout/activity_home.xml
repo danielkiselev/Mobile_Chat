@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/homeFrame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/theme2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project03.csc214.project03.Home.HomeActivity">
+
+    <fragment
+        android:id="@+id/fragLayHome"
+        tools:layout="@layout/fragment_home"
+        android:name="project03.csc214.project03.Home.HomeFragment"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+
+</FrameLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/addFriendFrame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/qrtheme"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project03.csc214.project03.AddFriend.AddFriendActivity">
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addGuide0"
+    />
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addGuide1"
+        />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addGuide2"
+        />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User One Will Be Notified When Both Users Are Friends"
+        />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/addFriendIV"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <Button
+        android:layout_gravity="center"
+        android:background="@color/green"
+        android:text="@string/add_user"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/addFriendBut"
+        android:onClick="addFriendBut"
+        />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/mainFrame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project03.csc214.project03.Registration.RegActivity">
+
+    <fragment
+        android:id="@+id/fragLayReg"
+        tools:layout="@layout/fragment_reg"
+        android:name="project03.csc214.project03.Registration.RegFragment"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+
+
+
+</FrameLayout>
