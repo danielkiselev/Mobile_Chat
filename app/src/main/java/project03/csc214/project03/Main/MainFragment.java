@@ -51,7 +51,6 @@ public class MainFragment extends Fragment {
 
             @Override
             public void onClick(View v){
-                Toast.makeText(getActivity(),"Welcome to Kek Chat",Toast.LENGTH_LONG).show();
                 Intent intentReg = new Intent(getActivity(), RegActivity.class);
                 startActivity(intentReg);
             }
