@@ -12,7 +12,6 @@
         android:layout_height="30dp">
         <TextView
             android:id="@+id/chatNameTV"
-            android:textColor="@color/green"
             android:textSize="16sp"
             android:text=""
             android:layout_width="wrap_content"

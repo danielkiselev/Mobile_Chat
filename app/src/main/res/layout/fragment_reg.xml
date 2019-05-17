@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/theme2"
     tools:context="project03.csc214.project03.Registration.RegFragment">
 
     <LinearLayout
@@ -125,7 +124,6 @@
 
 
     <Button
-        android:background="@color/green"
         android:id="@+id/newUserRegister"
         android:layout_below="@id/signUpLinLay"
         android:layout_width="200dp"

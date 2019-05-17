@@ -29,7 +29,6 @@
             />
 
         <Button
-            android:background="@color/green"
             android:id="@+id/loginB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -41,7 +40,6 @@
 
     <Button
         android:id="@+id/regB"
-        android:background="@color/green"
         android:layout_below="@id/loginLinLay"
         android:layout_width="200dp"
         android:layout_height="wrap_content"

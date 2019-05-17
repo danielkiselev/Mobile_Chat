@@ -10,7 +10,6 @@
     tools:context="project03.csc214.project03.Chat.ChatMasterDetailActivity">
 
     <FrameLayout
-        android:background="@drawable/theme2"
         android:id="@+id/frame_layout_master"
         android:layout_width="0dp"
         android:layout_height="match_parent"
